@@ -1,0 +1,83 @@
+//To print 65 by storing it in a variable ??
+
+class Demo {
+  public statis void main(String [] args){
+    int num;                                  //declaration
+    num=65;                                   //definitaion
+    System.out.println(num);                  //printing
+  }
+}
+
+
+//To print the sum of 2 values 45 & 10 by storing it in below format ??
+
+class sum {
+  public statis void main(String [] args){
+    int num1,num2,sum;                                  
+    num1=45;
+    num2=10;
+    sum=num1+num2;                              // here we performing the addition operation
+    System.out.println(sum);                         
+  }
+}
+
+//To print the diff of 2 values 95 & 56 by storing it in below format ??
+
+class diff {
+  public statis void main(String [] args){
+    int num1,num2,diff;                                  
+    num1=95;
+    num2=56;
+    diff=num1-num2;                          // here we performing the differnce (or) subtraction operation
+    System.out.println(diff);                         
+  }
+}
+
+//To print the multuple of 2 values 21 & 35 by storing it in below format ??
+
+class multiple {
+  public statis void main(String [] args){
+    int num1,num2,multiple;                                  
+    num1=21;
+    num2=35;
+    multiple=num1*num2;                  // here we performing the multiple operation
+    System.out.println(multiple);                         
+  }
+}
+
+//To print the divide of 2 values 86 & 20 by storing it in below format ??
+
+class division {
+  public statis void main(String [] args){
+    int num1,num2,divide;                                  
+    num1=86;
+    num2=20;
+    divide=num1/num2;                 // here we performing the divisions operation
+    System.out.println(divide);                         
+  }
+}
+
+//To print the modulus division of 2 values 2 & 60 by storing it in below format ??
+
+class moudules {
+  public statis void main(String [] args){
+    int num1,num2,modulus;                                  
+    num1=95;
+    num2=56;
+    modulus=num1%num2;                    // here we performing the modulus operation
+    System.out.println(modulus);                         
+  }
+}
+
+//To print the modulus division by giving the dynamic input ??
+
+class moudules {
+  public statis void main(String [] args){
+     Scanner sc =new Scanner (System.in);          //here we are taking the dynamic from user and performing modulus operation
+        int num1=sc.nextInt();
+        int num2=sc.nextInt(),modulus;
+        modulus=num1%num2;
+        System.out.println(modulus);         
+  }
+}
+
